@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: hosting-render
-    repo: https://github.com/jmooring/hosting-render
+    name: optidem
+    repo: https://github.com/weichencsu/gohugo_optidem
     runtime: static
     buildCommand: chmod a+x build.sh && ./build.sh
     staticPublishPath: public
